@@ -1,0 +1,115 @@
+extends layout
+block content
+  //Başlık bölümündeki bilgileri ayarlaya
+  #banner.page-header
+    //satır oluştur
+    .row
+      .col-lg-6
+        h1
+          |Mekan32
+          small &nbsp;Isparta civarındaki mekanları keşfedin!
+  .row
+    //mobil uyumlu listeleme
+    .col-xs-12.col-sm-12
+      //Liste grubu oluştur
+      .row.list-group
+       //Listeye öğe ekleme. Birden fazla eleman ekliycekseniz
+       //aşağıdaki kodu kopyalayın ve yapıştırın
+       .col-xs-12.list-group-item
+           //Linklerin, yıldızların ve adresin oluşturulması
+           h4
+             a(href='/mekan/') Starbucks
+             small &nbsp;
+             span.glyphicon.glyphicon-star
+             span.glyphicon.glyphicon-star
+             span.glyphicon.glyphicon-star
+             span.glyphicon.glyphicon-star
+             span.glyphicon.glyphicon-star-empty
+           span.badge.pull-right.badge-default 10km
+           p.address Centrum Garden AVM
+           p
+              span.label.label-warning Dünya Kahveleri
+              | &nbsp;
+              span.label.label-warning Kekler
+              | &nbsp;
+              span.label.label-warning Pastalar
+              | &nbsp;
+       .col-xs-12.list-group-item
+           //Linklerin, yıldızların ve adresin oluşturulması
+           h4
+             a(href='/mekan/') Kahve Duragi
+             small &nbsp;
+             span.glyphicon.glyphicon-star
+             span.glyphicon.glyphicon-star-empty
+             span.glyphicon.glyphicon-star-empty
+             span.glyphicon.glyphicon-star-empty
+             span.glyphicon.glyphicon-star-empty
+           span.badge.pull-right.badge-default 3km
+           p.address İyaş Park Çevresi
+           p
+              span.label.label-warning Dünya Kahveleri
+              | &nbsp;
+              span.label.label-warning Soğuk içecekler
+              | &nbsp;
+              span.label.label-warning Pastalar
+              | &nbsp;
+       .col-xs-12.list-group-item
+           //Linklerin, yıldızların ve adresin oluşturulması
+           h4
+             a(href='/mekan/') Huni Cafe Bar
+             small &nbsp;
+             span.glyphicon.glyphicon-star
+             span.glyphicon.glyphicon-star
+             span.glyphicon.glyphicon-star
+             span.glyphicon.glyphicon-star
+             span.glyphicon.glyphicon-star-empty
+           span.badge.pull-right.badge-default 5km
+           p.address Çarşı
+           p
+              span.label.label-warning Dünya Alkolleri
+              | &nbsp;
+              span.label.label-warning Canlı Müzik
+              | &nbsp;
+              span.label.label-warning Fast Food
+              | &nbsp;
+       .col-xs-12.list-group-item
+           //Linklerin, yıldızların ve adresin oluşturulması
+           h4
+             a(href='/mekan/') Simit Sarayı
+             small &nbsp;
+             span.glyphicon.glyphicon-star
+             span.glyphicon.glyphicon-star
+             span.glyphicon.glyphicon-star-empty
+             span.glyphicon.glyphicon-star-empty
+             span.glyphicon.glyphicon-star-empty
+           span.badge.pull-right.badge-default 7km
+           p.address Çarşı
+           p
+              span.label.label-warning Simit
+              | &nbsp;
+              span.label.label-warning Poğaça
+              | &nbsp;
+              span.label.label-warning Boyoz
+              | &nbsp;
+       .col-xs-12.list-group-item
+           //Linklerin, yıldızların ve adresin oluşturulması
+           h4
+             a(href='/mekan/') MandaBatmaz Türk Kahvecisi
+             small &nbsp;
+             span.glyphicon.glyphicon-star
+             span.glyphicon.glyphicon-star
+             span.glyphicon.glyphicon-star
+             span.glyphicon.glyphicon-star
+             span.glyphicon.glyphicon-star-empty
+           span.badge.pull-right.badge-default 10km
+           p.address Çarşı
+           p
+              span.label.label-warning Türk Kahvesi
+              | &nbsp;
+              span.label.label-warning Osmanlı Kahvesi
+              | &nbsp;
+              span.label.label-warning Dibek Kahvesi
+              | &nbsp;
+    .col-xs-12.col-sm-4
+
+    
